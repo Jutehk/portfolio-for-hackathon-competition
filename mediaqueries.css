@@ -1,0 +1,231 @@
+/* Large Screens (1200px and below) */
+@media (max-width: 1200px) {
+  .project-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .image {
+    display: none;
+  }
+
+  /* Hide original hero image */
+  .image {
+    display: none;
+  }
+
+  /* Replace logo with hero image */
+  .logo {
+    width: 60px;
+    height: 60px;
+  }
+
+  .logo img {
+    content: url("pic/WhatsApp Image 2025-02-09 at 18.42.40_ef00015c.jpg"); /* Replaces logo with hero image */
+    object-fit: cover;
+  }
+
+  /* about section */
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .tab-content li {
+    font-size: 20px;
+  }
+
+  /*  project section */
+  .project-card {
+    background: whitesmoke;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 300px;
+    text-align: center;
+  }
+
+  .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  }
+
+  /* Project Images */
+  .project-card img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  /* Project Titles */
+  .project-card h3 {
+    font-size: 20px;
+    color: #007bff;
+    margin-top: 10px;
+  }
+
+  /* Project Description */
+  .project-card p {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+}
+
+/* Medium Screens (992px and below) */
+@media (max-width: 992px) {
+  .about {
+    text-align: center;
+    padding: 40px;
+  }
+  .tab-container {
+    align-items: center;
+  }
+  .image {
+    display: none;
+  }
+  .projects {
+    position: relative;
+  }
+
+  .project-card {
+    width: 200px;
+  }
+
+  .project-card h3 {
+    font-size: 1rem;
+  }
+
+  .project-card p {
+    font-size: 5px;
+  }
+
+  .project-container {
+    display: flex;
+  }
+}
+
+/* Small Screens (768px and below) */
+@media (max-width: 768px) {
+  .navbar {
+    justify-content: space-between;
+    padding: 15px;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background: whitesmoke;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .mobile-menu {
+    display: block;
+    cursor: pointer;
+    font-size: 1.5rem;
+    position: absolute;
+    right: 40px;
+    top: 0px;
+  }
+
+  /* about section */
+
+  .about {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .tab-content li {
+    font-size: 10px;
+  }
+  /*  project section */
+  .project-card {
+    width: 150px;
+  }
+
+  .project-card img {
+    width: 70%;
+    height: 10px;
+  }
+
+  .project-card h3 {
+    font-size: 20px;
+  }
+
+  .project-card p {
+    font-size: 5px;
+  }
+
+  .btn {
+    font-size: 5px;
+  }
+
+  .contact-container {
+    flex-direction: column;
+  }
+}
+
+/* Extra Small Screens (576px and below) */
+@media (max-width: 576px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero p {
+    font-size: 1.2rem;
+  }
+
+  .project-card {
+    width: 100px;
+  }
+
+  .project-card img {
+    width: 50%;
+  }
+
+  .project-card h3 {
+    font-size: 5px;
+  }
+
+  .project-card p {
+    font-size: 5px;
+  }
+}
+
+/* Very Small Screens (356px and below) */
+@media (max-width: 356px) {
+  .navbar {
+    padding: 10px;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+}

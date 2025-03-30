@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <header> 
+      <nav class="navbar">
+          <div class="logo">
+              <img src="pic/MY LOGO.webp" alt="My Brand Logo" />
+          </div>
+          
+          <!-- Mobile Menu Icon -->
+          <div class="mobile-menu">☰</div>
+  
+          <!-- Navigation Links -->
+          <ul class="nav-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+          </ul>
+      </nav>
+  </header>
+  
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Hey there! I'm JULIANA</h1>
+        <p>
+          a frontend developer who loves bringing ideas to life through code. I
+          specialize in building sleek, responsive, and intuitive web
+          experiences that make a difference. Let's create something amazing!
+        </p>
+      </div>
+      <div class="image">
+        <img
+          src="pic/WhatsApp Image 2025-02-09 at 18.42.40_ef00015c.jpg"
+          alt=""
+          class="girl"
+        />
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <div class="about-container">
+        <div class="about-content">
+          <p>
+            As a frontend developer, I combine technical expertise with
+            creativity, problem-solving and strong communication skills. I don’t
+            just build websites—I craft digital experiences that are both
+            functional and visually appealing. If you're looking for someone who
+            codes with precision and thinks outside the box, I’m just a message
+            away. No regrets, only results.
+          </p>
+
+          <!-- Tab System Using Radio Buttons -->
+          <div class="tab-container">
+            <!-- Radio Buttons (Hidden) -->
+            <input type="radio" id="tab1" name="tabs" checked />
+            <label for="tab1" class="tab-link">Languages</label>
+
+            <input type="radio" id="tab2" name="tabs" />
+            <label for="tab2" class="tab-link">Interests</label>
+
+            <input type="radio" id="tab3" name="tabs" />
+            <label for="tab3" class="tab-link">Education</label>
+
+            <!-- Tab Content -->
+            <div class="tab-content" id="content1">
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React.js</li>
+              </ul>
+            </div>
+
+            <div class="tab-content" id="content2">
+              <ul>
+                <li>Web Development</li>
+                <li>UI/UX Design</li>
+                <li>Tech Innovations</li>
+                <li>Team Collaboration & Agile Development</li>
+              </ul>
+            </div>
+
+            <div class="tab-content" id="content3">
+              <ul>
+                <li>BSc in Math & Computer Science</li>
+                <li>PLP Academy</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+      <div class="project-container">
+        <!-- Project 1 -->
+        <div class="project-card">
+          <img src="pic/Screenshot (30).png" alt="Project 1" />
+          <h3>Educational Website</h3>
+          <p>
+            A user-friendly platform that provides interactive learning
+            resources and engaging educational content.
+          </p>
+          <a
+            href="https://jutehk.github.io/Educational-website/"
+            class="btn"
+            target="_blank"
+            >Live Demo</a
+          >
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <img src="pic/Screenshot (31).png" alt="Project 2" />
+          <h3>Admin Dashboard</h3>
+          <p>
+            A modern dashboard with real-time analytics, user management, and an
+            intuitive UI for administrators.
+          </p>
+          <a
+            href="https://jutehk.github.io/Admin-Dashboard/"
+            class="btn"
+            target="_blank"
+            >Live Demo</a
+          >
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+          <img src="pic/Screenshot (32).png" alt="Project 3" />
+          <h3>E-Commerce Website</h3>
+          <p <p>
+            A fully functional online store with product listings, a shopping
+            cart, and a seamless checkout experience.
+          </p>
+          <a
+            href="https://jutehk.github.io/E-commerce-website/"
+            class="btn"
+            target="_blank"
+            >Live Demo</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <h2>Contact Me</h2>
+      <div class="contact-container">
+        <div class="contact-info">
+          <p><i class="fa-solid fa-envelope"></i> julianandunge54@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i> 0718453328</p>
+          <div class="social-links">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <a href="cv/Juliana.docx" class="download-cv">Download CV</a>
+        </div>
+        <div class="contact-form">
+          <form name="submit-to-google-sheet">
+            <input type="text"  name= "Name" placeholder="Your Name" required />
+            <input type="email"  name= "Email" placeholder="Your Email" required />
+            <textarea  name = "Message" placeholder="Your Message" required></textarea>
+            <button type="submit">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>© 2025 Jutehk. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
