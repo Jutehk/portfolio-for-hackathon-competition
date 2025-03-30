@@ -20,11 +20,12 @@ It features a **responsive, clean, and intuitive design** with a functional **co
 - **Form Handling** – Functional contact form  
 
 ## 📸 Screenshots  
-![Screenshot (33)](https://github.com/user-attachments/assets/3b3e57cb-6f63-4375-9655-79a1521f11b8)
+![Screenshot (33)](https://github.com/user-attachments/assets/bb5ec1d4-8ee2-4f37-ab85-56166543ff8f)
 
-![Screenshot (34)](https://github.com/user-attachments/assets/b5970c40-f4e3-40e7-9b81-3b5ed920b0f6)
 
-![Screenshot (35)](https://github.com/user-attachments/assets/24a3eaec-ee2b-4956-8166-9a8b0a8100b6)
+![Screenshot (34)](https://github.com/user-attachments/assets/93985762-b79f-4f81-8215-c462eb68d0ed)
+
+![Screenshot (35)](https://github.com/user-attachments/assets/0d1fb3a9-44f4-4382-a197-3e08e599860b)
 
   
 
